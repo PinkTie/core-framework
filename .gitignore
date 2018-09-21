@@ -1,0 +1,23 @@
+# 3RD Party
+#-------------------------
+vendor/
+node_modules/
+npm-debug.log
+composer.phar
+
+# TEMP Files
+#-------------------------
+.DS_Store
+.vscode
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project

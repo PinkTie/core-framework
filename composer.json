@@ -1,0 +1,22 @@
+{
+    "name": "Core Framework",
+    "description": "Core Framework for PinkTie Projects",
+    "keywords": ["php", "framework", "php framework"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Fairbanks",
+            "email": "kevin@kevinfairbanks.com",
+            "role": "Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PTCore\\": "app/"
+        }
+    }
+}
