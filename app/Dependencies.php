@@ -24,4 +24,11 @@ $injector->define('Mustache_Engine', [
     ],
 ]);
 
+$injector->define('PTCore\Page\FilePageReader', [
+    ':pageFolder' => __DIR__ . '/../pages',
+]);
+
+$injector->alias('PTCore\Page\PageReader', 'PTCore\Page\FilePageReader');
+$injector->share('PTCore\Page\FilePageReader');
+
 return $injector;
